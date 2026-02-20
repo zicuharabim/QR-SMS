@@ -3,14 +3,14 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HH9JVPMFT0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH9JVPMFT0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-HH9JVPMFT0');
-</script>
+        gtag('config', 'G-HH9JVPMFT0');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google SMS QR Extractor</title>
@@ -22,18 +22,18 @@
 
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #733020 0%, #6b4e11 100%);
-            --bg-color: #fff9f0;
-            --text-color: #2c1810;
-            --accent-color: #6b4e11;
-            --border-color: #d4a574;
-            --highlight-bg: #f4e4c1;
+            --primary-gradient: linear-gradient(135deg, #1e4a8a 0%, #2d6cc0 100%);
+            --bg-color: #f0f6ff;
+            --text-color: #0f2340;
+            --accent-color: #1a5ca8;
+            --border-color: #7ab3e8;
+            --highlight-bg: #d6e9f8;
         }
 
         body {
             font-family: 'Inter', sans-serif;
             /* Default for English */
-            background-color: #f7f2e8;
+            background-color: #e8f1fb;
             margin: 0;
             padding: 20px;
             display: flex;
@@ -50,7 +50,7 @@
             left: 0;
             right: 0;
             background: var(--primary-gradient);
-            box-shadow: 0 2px 10px rgba(107, 78, 17, 0.3);
+            box-shadow: 0 2px 10px rgba(30, 74, 138, 0.3);
             padding: 15px 0;
             z-index: 1000;
             text-align: center;
@@ -65,7 +65,7 @@
 
         .nav-item {
             text-decoration: none;
-            color: #f4e4c1;
+            color: #d6e9f8;
             font-weight: 600;
             font-size: 1.1rem;
             padding: 8px 16px;
@@ -90,7 +90,7 @@
             padding: 4px;
             /* Slight increase for border effect */
             margin: 30px auto;
-            box-shadow: 0 10px 30px rgba(107, 78, 17, 0.25);
+            box-shadow: 0 10px 30px rgba(30, 74, 138, 0.25);
             max-width: 600px;
             width: 100%;
         }
@@ -116,14 +116,14 @@
 
         .bookmarklet-subtitle {
             font-size: 1rem;
-            color: #8c6b30;
+            color: #2d6cc0;
             margin-bottom: 1.5rem;
             margin-top: 0;
             font-weight: 500;
         }
 
         .bookmarklet-description {
-            color: #5d4a1f;
+            color: #1e3d6e;
             margin-bottom: 2rem;
             font-size: 1rem;
             line-height: 1.5;
@@ -133,7 +133,7 @@
         .bookmark-button {
             display: inline-block;
             background: var(--primary-gradient);
-            color: #f4e4c1;
+            color: #d6e9f8;
             text-decoration: none;
             padding: 14px 28px;
             border-radius: 50px;
@@ -142,14 +142,14 @@
             font-size: 1.1rem;
             cursor: move;
             /* Indicates draggable */
-            box-shadow: 0 4px 15px rgba(115, 48, 32, 0.3);
+            box-shadow: 0 4px 15px rgba(30, 74, 138, 0.3);
             transition: all 0.3s ease;
             border: 2px solid transparent;
         }
 
         .bookmark-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(115, 48, 32, 0.4);
+            box-shadow: 0 8px 20px rgba(30, 74, 138, 0.4);
             color: #fff;
             text-decoration: none;
         }
@@ -187,7 +187,7 @@
         }
 
         .lang-btn:hover:not(.active) {
-            background: rgba(212, 165, 116, 0.2);
+            background: rgba(122, 179, 232, 0.2);
         }
 
         /* Instructions Box */
@@ -226,8 +226,8 @@
         }
 
         .step-number {
-            background: #733020;
-            color: #f4e4c1;
+            background: #1e4a8a;
+            color: #d6e9f8;
             width: 26px;
             height: 26px;
             border-radius: 50%;
@@ -253,7 +253,7 @@
             padding-top: 20px;
             margin-top: 30px;
             font-size: 0.85rem;
-            color: #8c6b30;
+            color: #2d6cc0;
         }
 
         /* Language Specific Fonts */
@@ -272,7 +272,7 @@
         }
 
         strong {
-            color: #5d3a1f;
+            color: #1e3d6e;
         }
     </style>
 </head>
