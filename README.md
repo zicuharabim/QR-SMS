@@ -6,6 +6,10 @@ A simple project with instructions to use a script that extracts the phone numbe
 
 This repository contains a small website and instructions for using a script that processes QR codes to extract SMS content. It’s meant to be easy to use and extend.
 
+## Use
+
+Go to the [live webpage](https://zicuharabim.github.io/QR-SMS/), and drag the bookmarklet to the shortcut bar. for detailed instructions see the [instructions](https://zicuharabim.github.io/QR-SMS/instructions.html) page.
+
 ## Suggestions, Issues & Enhancements
 
 Any suggestions are welcome!  
